@@ -46,3 +46,8 @@ div{
 .text-for-content-pro-mobile-footer {
     font-size: 4px;  
 }
+.bg-footer{
+    
+    background-image: url('./image/bg-footer.jpg');
+    background-size: cover;
+}
