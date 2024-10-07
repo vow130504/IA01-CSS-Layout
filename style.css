@@ -1,0 +1,48 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.text-for-mobile{
+    font-size: 10px;
+}
+div{
+    unicode-bidi: isolate;
+}
+
+.shadow-bottom {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+.text-for-blue-text-mobile {
+    font-size: 9px;
+}
+
+.text-for-content-pro-mobile {
+    font-size: 4px;     
+    text-align: justify;
+}
+
+.text-for-titile-content-pro-mobile {
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 1.5;
+    
+}
+
+.define-height {
+    height: 33%;
+}
+
+.bg-custom {
+    background-image: url('./image/bg.jpg');
+    background-size: cover;
+}
+
+.bg-custom-footer {
+    background-image: url('./image/bg-bot.jpg');
+    background-size: cover;
+}
+.text-for-content-pro-mobile-footer {
+    font-size: 4px;  
+}
