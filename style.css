@@ -59,7 +59,7 @@ div{
     justify-content: center;
     align-items: center;
 }
-@media (max-width: 340px) {
+@media (max-width: 371px) {
     .w-28 {
         width: 7rem; /* Độ rộng phù hợp cho màn hình 320px */
     }
@@ -97,9 +97,9 @@ div{
     }
 }
 
-@media (min-width: 340px) {
+@media (min-width: 371px) {
     .w-28 {
-        width: 7rem; 
+        width: 7rem; /* Độ rộng phù hợp cho màn hình 320px */
     }
     .h-16 {
         height: 2rem; 
@@ -108,20 +108,19 @@ div{
         font-size: 10px;
     }
     .text-for-blue-text-mobile {
-        font-size: 7px;
+        font-size: 8px;
         
     }
     
     .grid-custom {
-        grid-template-columns: 35px 60px 35px 60px 35px 60px;
+        grid-template-columns: 30px 60px 30px 60px 30px 60px;
         gap: 0.5rem; 
     }
     .text-for-titile-content-pro-mobile{
-        font-size: 5px;
+        font-size: 4px;
     }
     .arrow-size{
-        width: 50px;
-        height: 40px;
+        height: 28px;
         margin-top: 12px;
     }
     
