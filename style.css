@@ -55,7 +55,7 @@ div{
     border-left:1px solid black
 }
 
-@media (max-width: 320px) {
+@media (max-width: 430px) {
     .w-28 {
         width: 7rem; /* Độ rộng phù hợp cho màn hình 320px */
     }
