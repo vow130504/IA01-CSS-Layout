@@ -54,8 +54,12 @@ div{
 .border-left{
     border-left:1px solid black
 }
-
-@media (max-width: 430px) {
+.container-x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 340px) {
     .w-28 {
         width: 7rem; /* Độ rộng phù hợp cho màn hình 320px */
     }
@@ -66,7 +70,7 @@ div{
         font-size: 10px;
     }
     .text-for-blue-text-mobile {
-        font-size: 4px;
+        font-size: 5px;
         
     }
     
@@ -93,6 +97,44 @@ div{
     }
 }
 
+@media (min-width: 340px) {
+    .w-28 {
+        width: 7rem; 
+    }
+    .h-16 {
+        height: 2rem; 
+    }
+    .title {
+        font-size: 10px;
+    }
+    .text-for-blue-text-mobile {
+        font-size: 7px;
+        
+    }
+    
+    .grid-custom {
+        grid-template-columns: 35px 60px 35px 60px 35px 60px;
+        gap: 0.5rem; 
+    }
+    .text-for-titile-content-pro-mobile{
+        font-size: 5px;
+    }
+    .arrow-size{
+        width: 50px;
+        height: 40px;
+        margin-top: 12px;
+    }
+    
+    .bg-custom-footer {
+        height: auto;
+    }
+    
+    .size-icon{
+        height: 9px;
+        width: 9px;
+        margin-right: 3px;
+    }
+}
 @media (min-width: 430px) {
     .w-28 {
         width: 10rem; /* Độ rộng 40 cho màn hình 430px */
