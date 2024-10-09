@@ -93,21 +93,21 @@ div{
         margin-right: 3px;
     }
 }
-
+/* 
 @media (min-width: 430px) {
     .w-28 {
-        width: 10rem; /* Độ rộng 40 cho màn hình 430px */
+        width: 10rem; 
     }
     .h-16 {
         height: 3rem; 
     }
     .grid-custom {
         grid-template-columns: 40.86px 80px 40.86px 80px 40.86px 80px;
-        gap: 0.5rem; /* Tương đương với `gap-2` trong Tailwind */
+        gap: 0.5rem; 
     }
     .size-icon{
         height: 12px;
         width: 12px;
         margin-right: 4px;
     }
-}
+} */
