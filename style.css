@@ -55,7 +55,7 @@ div{
     border-left:1px solid black
 }
 
-@media (max-width: 640px) {
+@media (max-width: 320px) {
     .w-28 {
         width: 7rem; /* Độ rộng phù hợp cho màn hình 320px */
     }
@@ -71,7 +71,6 @@ div{
     }
     
     .grid-custom {
-        display: grid;
         grid-template-columns: 30px 60px 30px 60px 30px 60px;
         gap: 0.5rem; 
     }
@@ -93,21 +92,21 @@ div{
         margin-right: 3px;
     }
 }
-/* 
+
 @media (min-width: 430px) {
     .w-28 {
-        width: 10rem; 
+        width: 10rem; /* Độ rộng 40 cho màn hình 430px */
     }
     .h-16 {
         height: 3rem; 
     }
     .grid-custom {
         grid-template-columns: 40.86px 80px 40.86px 80px 40.86px 80px;
-        gap: 0.5rem; 
+        gap: 0.5rem; /* Tương đương với `gap-2` trong Tailwind */
     }
     .size-icon{
         height: 12px;
         width: 12px;
         margin-right: 4px;
     }
-} */
+}
